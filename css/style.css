@@ -165,25 +165,30 @@ main {
     margin-bottom: 20px;
 }
 
-.all-news .headline h3 {
+.all-news .headline {
+    margin-bottom: 30px;
+}
+
+.all-news .headline .news-title, .news-title {
     font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 130%;
     font-weight: 800;
 
     text-transform: uppercase;
 
-    margin: 15px 0;
+    margin: 15px 0 10px;
 
     color: #353535;
 }
 
-.all-news .headline p.summary {
+p.summary {
     font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 18px;
     font-weight: 300;
+    text-align: justify;
 }
 
-h4 {
+.headline h4 {
     margin: 20px 0 0;
 }
 
@@ -209,4 +214,44 @@ a.source {
 a.source:hover {
     font-weight: 500;
     color: #292929;
+}
+
+/* -----------------------------------------------------------
+                        NEWS GRID
+----------------------------------------------------------- */
+.news-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news {
+    margin-top: 20px;
+    width: 50%;
+    /* background-color: cornflowerblue; */
+}
+
+.news:first-child {
+    margin-right: 40px;
+}
+
+.category-title {
+    font-weight: 600;
+    font-size: 1.2em;
+
+    border-bottom: 4px #e64946 solid;
+
+    margin-bottom: 25px;
+}
+
+.news-grid .news-title {
+    font-size: 120%;
+    margin: 10px 0 5px;
+}
+
+.news p.summary {
+    font-size: 16px;
+}
+
+.news h4 {
+    margin: 15px 0 0;
 }
