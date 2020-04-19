@@ -13,13 +13,13 @@ body, ul, h1, h2, h3, p, li, a  {
     padding: 0;
     border: 0;
     font-family: 'Fira Sans Condensed', sans-serif;
-    font: inherit;
     text-decoration: none;
+    font-weight: normal;
 }
 
 body {
     min-width: 100vh;
-    line-height: 1.3;
+    line-height: 1.5;
 }
 
 ul {
@@ -127,3 +127,86 @@ img {
 /* -----------------------------------------------------------
                         MAIN CONTENT
 ----------------------------------------------------------- */
+main {
+    display: flex;
+    justify-content: space-around;
+
+    box-sizing: border-box;
+    padding: 20px;
+    max-width: 100%;
+
+    /* background-color: coral; */
+}
+
+.all-news {
+    box-sizing: border-box;
+    padding-right: 20px;
+    margin: 0;
+    width: 70%;
+
+    /* background-color: cornflowerblue; */
+}
+
+.popular-news {
+    box-sizing: border-box;
+    width: 30%;
+    padding: 20px;
+
+    background-color: whitesmoke
+}
+/* -----------------------------------------------------------
+                        HEADLINE
+----------------------------------------------------------- */
+.all-news .headline h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 300%;
+    font-weight: 600;
+
+    margin-bottom: 20px;
+}
+
+.all-news .headline h3 {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 130%;
+    font-weight: 800;
+
+    text-transform: uppercase;
+
+    margin: 15px 0;
+
+    color: #353535;
+}
+
+.all-news .headline p.summary {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+h4 {
+    margin: 20px 0 0;
+}
+
+.source {
+    display: inline-block;
+}
+
+p.source {
+    font-weight: 900;
+    line-height: .8;
+    text-transform: uppercase;
+    color: #e64946;
+    border-right: #292929 1px solid;
+    padding-right: 8px;
+    margin-right: 5px;
+}
+
+a.source {
+    font-weight: 500;
+    color: #555;
+}
+
+a.source:hover {
+    font-weight: 500;
+    color: #292929;
+}
