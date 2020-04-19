@@ -30,4 +30,5 @@ Bora lá? Então valendo! Esse desafio é individual, mas incentivamos que você
 - **Github**
 - **Netlify**
 
-# [Acesse o site](https://quarentenanews.netlify.app/) 🔗
+# Acesse o site
+### [Quarentena News](https://quarentenanews.netlify.app/)
