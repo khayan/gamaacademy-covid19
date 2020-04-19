@@ -29,3 +29,5 @@ Bora lá? Então valendo! Esse desafio é individual, mas incentivamos que você
 - **VSCode**
 - **Github**
 - **Netlify**
+
+# [Acesse o site](https://quarentenanews.netlify.app/) 🔗
