@@ -44,16 +44,14 @@ img {
     justify-content: flex-end;
 
     background-color: #e64946;
-
-    padding: 8px;
 }
 
 .menu-social ul li {
-    margin: 10px;
+    margin: 5px 10px;
 }
 
 .menu-social ul li img {
-    width: 20px;
+    width: 17px;
 }
 
 /* -----------------------------------------------------------
@@ -63,7 +61,8 @@ img {
     padding: 20px;
 }
 
-.header-logo h1, .header-logo h2 {
+.header-logo h1,
+.header-logo h2 {
     font-family: 'Oswald', 'sans-serif';
     font-size: 50px;
     font-weight: 800;
@@ -147,7 +146,7 @@ main {
     /* background-color: cornflowerblue; */
 }
 
-.popular-news {
+.popular-videos {
     box-sizing: border-box;
     width: 30%;
     padding: 20px;
@@ -169,7 +168,8 @@ main {
     margin-bottom: 30px;
 }
 
-.all-news .headline .news-title, .news-title {
+.all-news .headline .news-title,
+.news-title {
     font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 130%;
     font-weight: 800;
@@ -203,7 +203,7 @@ p.source {
     color: #e64946;
     border-right: #292929 1px solid;
     padding-right: 8px;
-    margin-right: 5px;
+    margin-right: 3px;
 }
 
 a.source {
@@ -254,4 +254,49 @@ a.source:hover {
 
 .news h4 {
     margin: 15px 0 0;
+}
+
+/* -----------------------------------------------------------
+                        POPULAR VIDEOS
+----------------------------------------------------------- */
+
+.popular-videos .video {
+    margin: 20px 0 40px;
+}
+
+.popular-videos iframe {
+    width: 100%;
+    height: 200px;
+    border: 0;
+}
+
+.popular-videos .news-title {
+    font-size: 115%;
+}
+
+.popular-videos .summary {
+    font-size: 16px;
+}
+
+.popular-videos h4 {
+    margin: 15px 0 0;
+}
+
+.popular-videos .source {
+    font-size: 90%;
+}
+
+/* -----------------------------------------------------------
+                            FOOTER
+----------------------------------------------------------- */
+footer {
+    background-color: #e64946;
+    color: #FFF;
+    padding: 20px;
+    max-width: 100%;
+}
+
+footer p {
+    text-align: center;
+    font-weight: 600;
 }
