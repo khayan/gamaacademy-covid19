@@ -431,8 +431,52 @@ div.main-footer {
     flex-direction: column;
 }
 
+.contact-form form label {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: .8px;
 
+    margin-top: 10px;
+}
 
+.contact-form form input, .contact-form form textarea {
+    width: 100%;
+    
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid #292929;
+    outline: none;
+
+    font-size: 20px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.contact-form form input::placeholder,
+.contact-form form textarea::placeholder {
+    font-size: 20px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    opacity: .6;
+}
+
+.contact-form em {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.contact-form input.submit-buttom {
+    background-color: whitesmoke;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: 400ms;
+    width: 50%;
+    align-self: flex-end;
+}
+
+input.submit-buttom:hover {
+    background-color: #e64946;
+    color: #FFF;
+}
 
 #contact h2,
 #contact p {
