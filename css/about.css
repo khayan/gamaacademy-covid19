@@ -30,3 +30,15 @@
     margin: 10px 0;
     text-align: justify;
 }
+
+.info a {
+    color: #e64946;
+    font-weight: 900;
+    box-sizing: border-box;
+}
+
+.info a:hover {
+    background-color: #e64946;
+    color: #FFF;
+    padding: 3px;
+}
