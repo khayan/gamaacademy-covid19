@@ -3,7 +3,7 @@
     justify-content: flex-start;
     flex-direction: column;
     color: #292929;
-    line-height: .7;
+    line-height: 1;
 }
 
 .sources .page-title {
@@ -26,10 +26,15 @@
 
 .source {
     margin-top: 20px;
+    align-items: center;
 }
 
 .source img {
     width: 10%;
+    height: auto;
+    min-width: 130px;
+    max-height: 85px;
+    overflow: hidden;
 }
 
 .source .content {
@@ -40,28 +45,33 @@
     margin-left: 20px;
 }
 
+.content div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
 .content div:first-child {
     border-left: #292929 2px solid;
 }
-.content h3 {
-    font-weight: 600;
-    font-size: 30px;
-    margin-left: 10px;
 
+.content span {
+    box-sizing: border-box;
+    padding: 5px;
 }
 
-.content p, .content a {
+.content p,
+.content a {
     font-weight: 900;
     text-transform: uppercase;
     color: #e64946;
-    margin-left: 10px;
+    padding: 5px;
 }
 
 .content a {
-    font-weight: 500;
+    font-size: 30px;
     color: #292929;
-    border: 0;
-    margin-top: 5px;
+    padding: 0;
 }
 
 .content a:hover {
