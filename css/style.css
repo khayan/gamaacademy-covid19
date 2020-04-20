@@ -356,14 +356,88 @@ a.source:hover {
 /* -----------------------------------------------------------
                             FOOTER
 ----------------------------------------------------------- */
-footer {
+#contact {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column;
+
     background-color: #292929;
     color: #FFF;
+
     padding: 20px;
+
     max-width: 100%;
 }
 
-footer p {
-    text-align: center;
+#contact h2 {
+    border-bottom: #e64946 5px solid;
+}
+
+div.main-footer {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.social-footer {
+    width: 40%;
+}
+
+.social-footer .menu-social {
+    margin-top: 20px;
+}
+
+.social-footer .menu-social ul {
+    display: flex;
+    justify-content: flex-start;
+
+    margin-block-end: 0;
+    margin-block-start: 0;
+
+    background-color: transparent;
+}
+
+.social-footer .menu-social ul li {
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 0px 50px 0 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    transition-duration: .4s;
+}
+
+.social-footer .menu-social ul li img {
+    width: 100%;
+}
+
+.social-footer li:hover {
+    transition-duration: .4s;
+    background-color: #e64946;
+}
+
+
+
+
+
+.contact-form {
+    width: 50%;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+#contact h2,
+#contact p {
     font-weight: 600;
+    text-transform: uppercase;
+}
+
+#contact p {
+    background-color: transparent;
+
+    margin-top: 50px;
+    text-align: center;
+
+    align-self: center;
 }
