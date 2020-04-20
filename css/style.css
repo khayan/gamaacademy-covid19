@@ -416,10 +416,6 @@ div.main-footer {
     background-color: #e64946;
 }
 
-
-
-
-
 .contact-form {
     width: 50%;
 }
@@ -427,6 +423,17 @@ div.main-footer {
 .contact-form h2 {
     margin-bottom: 20px;
 }
+
+.contact-form form,
+.input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+
+
 #contact h2,
 #contact p {
     font-weight: 600;

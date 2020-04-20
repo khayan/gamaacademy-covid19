@@ -296,8 +296,26 @@
             <div class="contact-form">
                 <h2>Contato</h2>
                 <form action="https://formspree.io/xvobjdzo" method="POST">
-                    <input type="text" name="name">
-                    <input type="email" name="_replyto">
+                    <div class="input-wrapper">
+                        <label for="name">Nome</label>
+                        <input type="text" name="name">
+                    </div>
+                    
+                    <div class="input-wrapper">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="msg">O que você precisa?</label>
+                        <textarea name="msg" cols="30" rows="10"></textarea>
+                    </div>
+        
+                    <div class="input-wrapper">
+                        <label for="link">Seu site <em>(opcional)</em></label>
+                        <input type="url" name="link">
+                    </div>
+
                     <input type="submit" value="Send">
                 </form>
             </div>
