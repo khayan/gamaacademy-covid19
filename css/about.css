@@ -1,0 +1,32 @@
+.about-dev {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+
+    margin: auto;
+
+    color: #292929;
+    line-height: 1;
+}
+
+.about-dev .img {
+    filter: grayscale(100%);
+    width: auto;
+}
+
+.info {
+    width: 70%;
+}
+
+.info h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 30px;
+    /* border-bottom: #e64946 5px solid; */
+}
+
+.info p {
+    line-height: 1.5;
+    margin: 10px 0;
+    text-align: justify;
+}
